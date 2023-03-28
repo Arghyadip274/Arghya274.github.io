@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit n Fit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 4px;
+            border: 0px;
+            background: url(risen-wang-20jX9b35r_M-unsplash.jpg) no-repeat center center fixed;
+            background-size: cover;
+            height: 100%;
+            overflow: hidden;
+            font-family: 'Alkatra', cursive;
+        }
+
+        .l {
+            color: black;
+            display: inline-block;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+        }
+
+        .l img {
+            width: 90px;
+            filter: invert(100%);
+        }
+
+        .l div {
+            line-height: 19px;
+            text-align: center;
+            font-size: 26px;
+        }
+
+        .m {
+            color: whitesmoke;
+            display: block;
+            width: 36%;
+            margin: 10px auto;
+        }
+
+        .r {
+            color: white;
+            display: inline-block;
+            position: absolute;
+            right: 20px;
+            top: 10px;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 18px;
+        }
+
+        .navbar li a {
+            color: antiquewhite;
+            text-decoration: none;
+            padding: 37px 24px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: gray;
+            text-decoration: underline;
+
+        }
+
+        .btn {
+            margin: 2px 5px;
+            background-color: black;
+            color: rgb(240, 230, 230);
+            padding: 4px 14px;
+            border: 2px solid blanchedalmond;
+            border-radius: 8px;
+            font-size: 14px;
+            cursor: pointer;
+            font-family: 'Alkatra', cursive;
+        }
+        .btn:hover{
+            background-color: gray;
+        }
+        .boxer{
+            margin: 106px 50px;
+            padding:20px ;
+            border-radius: 15px;
+            color: aliceblue;
+            width: 40%;
+            background-color: rgba(52, 52, 52,0.65);
+
+        }
+        .formgrp input{
+            text-align: center;
+            display: block;
+            width: 400px;
+            padding: 9px;
+            margin: 3px 5px;
+            font-size: 14spx;
+            border-radius: 5px;
+            font-family: 'Alkatra', cursive;
+        }
+        .boxer h1{
+            text-align: left;
+        }
+        .boxer button{
+            display: block;
+            width: 69%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="l">
+            <img src="gym_logo.jpg" alt="">
+            <div>Fit n Fit</div>
+        </div>
+        <div class="m">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+        <div class="r">
+            <button class="btn">Call us</button>
+            <button class="btn">Funding</button>
+            <button class="btn">Report</button>
+        </div>
+    </header>
+    <div class="boxer">
+        <h1>ThE bEsT pLaCe iS nOw In YoUr ToWn </h1>
+        <form action="noaction.php">
+            <div class="formgrp">
+                <input type="text" name="" placeholder="Enter your name">    
+            </div>
+            <div class="formgrp">
+                <input type="number" name="" placeholder="Enter your age">    
+            </div>
+            <div class="formgrp">
+                <input type="date" name="" placeholder="Enter your DOB">    
+            </div>
+            <div class="formgrp">
+                <input type="text" name="" placeholder="Enter your Blood Group">    
+            </div>
+            <div class="formgrp">
+                <input type="text" name="" placeholder="Enter your Gender">    
+            </div>
+            <button class="btn">
+                Submit
+            </button>
+        </form>
+    </div>
+
+</body>
+
+</html>
